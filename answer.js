@@ -9,21 +9,19 @@ function describeValue(value) {
 
 }
 
-describeValue(null)
-
 
 
 
 //Question No. 2
-function getDayType(value) {
+function getDayType(day) {
 
-    let valueInLowerCase = value.toLowerCase();
+    let dayInLowerCase = day.toLowerCase();
 
-    if (valueInLowerCase === 'friday' || valueInLowerCase ==='saturday'){
+    if (dayInLowerCase === 'friday' || dayInLowerCase ==='saturday'){
 
         return "Weekend"
     }
-    else if (valueInLowerCase === 'sunday' || valueInLowerCase ==='monday' ||valueInLowerCase === 'tuesday' || valueInLowerCase ==='wednesday' ||valueInLowerCase === 'thursday'){
+    else if (dayInLowerCase === 'sunday' || dayInLowerCase ==='monday' ||dayInLowerCase === 'tuesday' || dayInLowerCase ==='wednesday' ||dayInLowerCase === 'thursday'){
 
         return "Working Day"
 
@@ -32,14 +30,20 @@ function getDayType(value) {
 
 }
 
-getDayType('MONDAY')
-
-console.log()
-
-
-
 
 
 //Question No. 3
+
+
+
+
+
+
+
+
+
+
+
+
 //Question No. 4
 //Question No. 5
